@@ -28,3 +28,25 @@ The baseline NN model in this case Instance 1 that was using the default Adam op
 ### Which implementation worked better: ML Algorith or Neural Network
 
 Both models did well in metrics like f1 score and recall, however the logistic regression was slightly better when it came to precision. Additionally it managed to train faster and effeciently. The logistic regression model used a `liblinear` Solver which is good for small datasets and it uses L2 regularization, C(Regularization) of `1.0` which is a moderate regularization(not too strong/weak) and `1000` maximum iterations for the solver to converge or in layman terms to make sure the model has been fully trained.
+
+
+##  Running the Notebook
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/dean-daryl/clickbait-classifier-ml-nn-python.git
+cd clickbait-classifier-ml-nn-python
+```
+### 2. Open the Notebook
+```bash
+  jupyter notebook notebook.ipynb
+```
+
+### 3. Run All Cells in Sequence
+
+The notebook is modularized, with each model instance (Instance 1 to Instance 5) in its own section.
+
+It includes data preprocessing, vectorization, model training, and evaluation.
+
+Make sure the dataset file (clickbait_data.csv) is located in the project root or referenced correctly in the notebook.
