@@ -11,7 +11,7 @@ Dataset used: https://www.kaggle.com/datasets/amananandrai/clickbait-dataset/dat
 
 | Instance | Optimizer | Regularizer          | Epochs | Early Stopping | Layers           | LR     | Accuracy | F1   | Recall | Precision |
 |----------|-----------|-----------------------|--------|----------------|------------------|--------|----------|------|--------|-----------|
-| 1  |Adam(Default)   | None                  | 7      | No             | 64-32-16         | Default| 0.96     | 0.95  | 0.93   | 0.95      |
+| 1  |Default(adam)  | None                  | 7      | No             | 64-32-16         | Default(0.001)| 0.96     | 0.95  | 0.93   | 0.95      |
 | 2        | Adam      | L2 + Dropout          | 20     | Yes            | 128-64-32        | 0.001  | 0.94     | 0.94 | 0.92   | 0.96     |
 | 3        | RMSprop   | L1 + Dropout          | 20     | Yes            | 128-64-32        | 0.001  | 0.91     | 0.91 | 0.89   | 0.94      |
 | 4        | SGD    |    L1_L2 + Dropout       | 30     | Yes            | 128-64-32        | 0.01   | 0.89     | 0.88 | 0.85   | 0.92      |
