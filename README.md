@@ -50,3 +50,16 @@ The notebook is modularized, with each model instance (Instance 1 to Instance 5)
 It includes data preprocessing, vectorization, model training, and evaluation.
 
 Make sure the dataset file (clickbait_data.csv) is located in the project root or referenced correctly in the notebook.
+
+
+### 4. Loading the best saved model
+
+Here's a brief script to load the best saved model
+```bash
+  # Load the best saved model
+
+logreg_model = joblib.load('saved_models/logreg_model.pkl')
+
+# Predict
+y_pred = logreg_model.predict(X_test)
+````
