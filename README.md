@@ -2,6 +2,7 @@
 
 With over 570 million internet users in Africa and rapidly growing digital media consumption, misleading clickbait content is becoming a major concern. In Rwanda and across the continent, it undermines media credibility, spreads misinformation, and wastes users' time. This project builds a machine learning model to automatically detect and flag clickbait headlines — supporting content moderation and promoting trustworthy digital communication in Africa.
 
+Demo Video: https://www.loom.com/share/ecd93c824f1a4d74bce024b8843ed6bb
 
 Dataset used: https://www.kaggle.com/datasets/amananandrai/clickbait-dataset/data
 
